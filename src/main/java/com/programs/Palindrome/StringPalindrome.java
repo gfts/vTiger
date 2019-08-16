@@ -1,12 +1,16 @@
 package com.programs.Palindrome;
 
+
 import java.util.Scanner;
 
 public class StringPalindrome {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		System.out.println("Check if String is Palindrom or not");
 		Scanner scan=new Scanner(System.in);
+		boolean exit = new Boolean(false);
+		while(!exit){
 		String st1= scan.nextLine();
 		StringBuilder st2= new StringBuilder(st1);
 		StringBuilder st3=new StringBuilder();
@@ -30,5 +34,4 @@ if(st2.length()==st3.length())
 		
 	}
 
-}
-
+}}
