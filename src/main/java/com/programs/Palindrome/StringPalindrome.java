@@ -1,5 +1,4 @@
 package com.programs.Palindrome;
-
 import java.util.Scanner;
 
 public class StringPalindrome {
