@@ -32,7 +32,7 @@
     <mirror>
       <id>nexus-central</id>
       <name>nexus central</name>
-      <url>http://ec2-100-26-98-99.compute-1.amazonaws.com:8081/repository/servlet-central/</url>
+      <url>http://ec2-3-83-246-97.compute-1.amazonaws.com:8081/repository/servlet-central/</url>
       <mirrorOf>central</mirrorOf>
     </mirror>
 </mirrors>

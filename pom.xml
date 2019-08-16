@@ -4,7 +4,7 @@
   <groupId>com.programs</groupId>
   <artifactId>vTiger</artifactId>
   <packaging>jar</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.6-SNAPSHOT</version>
   <name>vTiger maven product</name>
   <url>https://repo.maven.apache.org/maven2</url>
 
@@ -17,12 +17,12 @@
   <repository>
     <id>nexus-releases</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://ec2-100-26-98-99.compute-1.amazonaws.com:8081/repository/servlet-release/</url>
+    <url>http://ec2-3-83-246-97.compute-1.amazonaws.com:8081/repository/servlet-release/</url>
   </repository>
   <snapshotRepository>
     <id>nexus-snapshots</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://ec2-100-26-98-99.compute-1.amazonaws.com:8081/repository/servlet-snapshot/</url>
+    <url>http://ec2-3-83-246-97.compute-1.amazonaws.com:8081/repository/servlet-snapshot/</url>
   </snapshotRepository>
 </distributionManagement>
 
@@ -30,7 +30,7 @@
     <repository>
       <id>nexus-central</id>
       <name>nexus central</name>
-      <url>http://ec2-100-26-98-99.compute-1.amazonaws.com:8081/repository/servlet-central/</url>
+      <url>http://ec2-3-83-246-97.compute-1.amazonaws.com:8081/repository/servlet-central/</url>
     </repository>
 <repository>
 <id>junit</id>
