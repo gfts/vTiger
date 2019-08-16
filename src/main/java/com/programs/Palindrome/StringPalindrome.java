@@ -1,6 +1,5 @@
 package com.programs.Palindrome;
 import java.util.Scanner;
-
 public class StringPalindrome {
 public static void main(String[] args) {
 		String st="gdgfgaghgdh";
